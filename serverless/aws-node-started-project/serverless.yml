@@ -1,0 +1,13 @@
+org: sergiycheck
+app: aws-node-started-project
+service: aws-node-started-project
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello

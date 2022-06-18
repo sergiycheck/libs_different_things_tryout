@@ -1,0 +1,23 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "test node js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "serhii",
+  "license": "MIT",
+  "devDependencies": {
+    "winston": "^3.3.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "lodash": "^4.17.20",
+    "msnodesqlv8": "^2.0.11",
+    "mssql": "^6.3.1",
+    "request": "^2.88.2"
+  }
+}

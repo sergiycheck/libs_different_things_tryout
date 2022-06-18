@@ -1,0 +1,37 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /",
+  "rawPath": "/",
+  "rawQueryString": "",
+  "headers": {
+    "accept": "application/json",
+    "content-length": "54",
+    "content-type": "application/json",
+    "host": "vb8va5j018.execute-api.us-east-1.amazonaws.com",
+    "user-agent": "curl/7.83.0",
+    "x-amzn-trace-id": "Root=1-62a48ec4-526063cb5f8f25f71dbd98e3",
+    "x-forwarded-for": "37.55.68.104",
+    "x-forwarded-port": "443",
+    "x-forwarded-proto": "https"
+  },
+  "requestContext": {
+    "accountId": "581425740433",
+    "apiId": "vb8va5j018",
+    "domainName": "vb8va5j018.execute-api.us-east-1.amazonaws.com",
+    "domainPrefix": "vb8va5j018",
+    "http": {
+      "method": "POST",
+      "path": "/",
+      "protocol": "HTTP/1.1",
+      "sourceIp": "37.55.68.104",
+      "userAgent": "curl/7.83.0"
+    },
+    "requestId": "Tjs-ui7LIAMEJKA=",
+    "routeKey": "POST /",
+    "stage": "$default",
+    "time": "11/Jun/2022:12:47:00 +0000",
+    "timeEpoch": 1654951620476
+  },
+  "body": "{\"name\": \"customer1\",\"email\": \"customer1@example.com\"}",
+  "isBase64Encoded": false
+}

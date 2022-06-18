@@ -1,0 +1,10 @@
+@port = 3009
+
+###
+GET http://localhost:{{port}} HTTP/1.1
+Cookie1: Cookie1 value
+Cookie2: Cookie2 val
+
+###
+
+curl http://127.0.0.1:{{port}} --cookie "Cho=Kim;Greet=Hello"
